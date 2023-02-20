@@ -1,0 +1,139 @@
+* {
+ padding:0;
+ margin:0;
+ box-sizing:border-box;
+ font-family: "Open Sans", sans-serif;
+ }
+ 
+ 
+.header-sec {
+	background:#106eea;
+    font-size:14px;
+    color:#fff;
+    
+} 
+.header-container {
+	width:100%;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+}
+.contact-info  {
+	padding-left:70px;
+  
+}
+
+.contact-info i, .contact-info span {
+  padding-left:7px;
+  
+}
+
+
+.social-media-links {
+	padding-right:70px;
+}
+
+.social-media-links i {
+	padding-right:20px;
+	 opacity:0.6;
+}
+
+.container-nav {
+	width:100%;
+	padding:18px;
+	display:flex;
+	justify-content:space-between;
+	background-color:#fff;
+	align-items:center;
+}
+.nav-heading {
+	padding-left:80px;
+	font-size:20px;
+	font-weight:600;
+}
+
+.nav-heading span {
+	color:#106eea;
+}
+.nav-menu ul {
+	display:flex;
+	list-style:none;
+	padding-right:100px;
+}
+
+.nav-menu ul li {
+	padding-left:20px;
+	font-size:15px;
+	font-weight:600;
+}
+li i {
+	padding-left:4px;
+}
+.home-nav {
+	text-decoration:underline;
+	color:#106eea;
+}
+.banner-sec {
+	background:url('https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg');
+	position:relative:
+}
+.banner-sec:before {
+	content:"";
+	
+	
+}
+.banner-container {
+	width:85%;
+	margin:0px auto 0px;
+	padding:100px 0px 0px 0px;
+	height:75vh;
+	
+}
+
+.banner-info {
+	  display:flex;
+  align-items:center;
+  
+}
+.banner-container h1 {
+  font-size:48px;
+  font-weight:700;
+  color:#222222;
+  
+}
+
+.banner-container h1 span {
+  color:#106eea;
+}
+
+.banner-container h2{
+  font-size:24px;
+  color:#555;
+  font-weight:400;
+}
+
+.banner-info .gt-strt-btn {
+	font-size:14px;
+	font-weight:500;
+	width:13%;
+	background-color:#106eea;
+	border:none;
+	line-height:2.8;
+	border-radius:4px;
+    padding:2px 25px 2px;
+	margin:25px 0px 25px;
+	color:#ffffff;
+}
+
+.banner-info i {
+  font-size:32px;
+  margin-left:25px;
+  color:#106eea;  
+}
+
+.banner-info span {
+  font-size:16px;
+  margin-left:5px;
+  color:#222222;
+  font-weight:600;
+}
